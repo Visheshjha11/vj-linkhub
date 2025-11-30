@@ -9,9 +9,12 @@ body {
 .page {
   width: 100%;
   min-height: 100vh;
+  height: fit-content;        /* FIX: stop forced extra space */
   position: relative;
   overflow-x: hidden;
+  overflow-y: auto;           /* optional but recommended */
 }
+
 
 /* ---------------- STARFIELD ---------------- */
 #space {

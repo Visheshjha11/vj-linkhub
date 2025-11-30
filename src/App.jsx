@@ -4,7 +4,7 @@ import "./App.css";
 export default function App() {
   const [showEmail, setShowEmail] = useState(false);
 
-  
+
   useEffect(() => {
     generateStars();
   }, []);
