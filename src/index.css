@@ -1,0 +1,18 @@
+/* Minimal safe CSS – does NOT affect layout or styling */
+
+/* Prevent weird padding/margin defaults */
+* {
+  box-sizing: border-box;
+}
+
+/* Body stays untouched (App.css controls it) */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Root stays clean */
+#root {
+  width: 100%;
+  height: 100%;
+}
