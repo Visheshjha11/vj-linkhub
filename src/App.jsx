@@ -21,7 +21,7 @@ export default function App() {
       <div className="container">
         <img
           className="avatar"
-          src="https://media.licdn.com/dms/image/v2/D5603AQERT1gHnFFlKQ/profile-displayphoto-crop_800_800/B56Zq15LJbHIAI-/0/1763988257739?e=1766016000&v=beta&t=t7hRlE8NfbIIXrb-nQtviLWiYOeuY9G_0NZrTlFNivY"
+          src="/vj-pfp.jpg"
           alt="dev"
         />
 
